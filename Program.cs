@@ -196,6 +196,13 @@ namespace LMM_Rewritten
                     StringEnc.Fix();
                 }
             }
+            if (conf.ExportRNGSeeds)
+            {
+                SetStatusText("Decrypting Strings...", ConsoleColor.White, ConsoleColor.DarkMagenta);
+                List<string> text = new List<string>();
+                foreach (RngSeed seed in IntConfusion.RngSeeds) { text.Add(seed.method.DeclaringType.Name + "." + seed.method.Name + " - " + seed.inst.Offset + "," + seed.inst.OpCode.ToString() + "'" + seed.inst.Operand.ToString() + "' - '" + seed.seed + "'"); }
+                File.WriteAllLines(asm.Name + "-LostMyMisoSoup_RNGSeeds.txt", text.ToArray());
+            }
             pages.Add(currentPage.ToArray());
             ModuleWriterOptions moduleWriterOptions = new ModuleWriterOptions(asm);
             moduleWriterOptions.MetadataOptions.Flags |= MetadataFlags.PreserveAll;
