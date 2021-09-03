@@ -25,6 +25,7 @@ namespace LMM_Rewritten
             //if (args.Contains("--forcedefaultpreset")) { forceDefaultPreset = true; }
             //if (args.Contains("--forcecustompreset"))  {  forceCustomPreset = true; }
             //if (args.Contains("--presetdev"))          {          presetdev = true; }
+            Console.Title = "LostMyMisoSoup";
             SetStatusText("Initializing...", ConsoleColor.White, ConsoleColor.Blue);
             Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.ForegroundColor = ConsoleColor.Black;
