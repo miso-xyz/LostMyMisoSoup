@@ -1,5 +1,5 @@
 # LostMyMisoSoup
-Stable &amp; Effective Deobfuscator for MindLated , i don't even know how i've pulled it off
+a stable &amp; effective deobfuscator for MindLated , i don't even know how i've pulled it off
 
 It can also support slight mods of <a href="https://github.com/Sato-Isolated/MindLated/">MindLated</a> (see [Presets](#presets))
 
