@@ -35,6 +35,10 @@ Control Flow | No | Use <a href="https://github.com/miso-xyz/CCFlow">CCFlow</a> 
 Renamer | No | Original names cannot be recovered
 Proxy Methods | No | Doesn't seem to be finished
 Resource Protections | No | Theres no code other than a checkbox
+## Screenshots
+<img src="https://i.imgur.com/WhSjEiY.png">
+<img src="https://i.imgur.com/HuqTWVT.png">
+
 <a name="presets"></a>
 ## Presets
 Presets allows you to customise what `LostMyMisoSoup` is searching for.</br>
